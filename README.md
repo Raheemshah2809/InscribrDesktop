@@ -1,2 +1,0 @@
-# InscribrDesktop
-InscribrDesktop
