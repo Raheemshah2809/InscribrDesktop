@@ -9,7 +9,8 @@ function createWindow() {
         height: 720,
         webPreferences: {
             nodeIntegration: true
-        }
+        },
+        icon: 'build/icon-512.ico'
     })
 
     win.loadURL('https://inscribr.org')
@@ -18,3 +19,4 @@ function createWindow() {
 app.whenReady().then(() => {
     createWindow()
 })
+
