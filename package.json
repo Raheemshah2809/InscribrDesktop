@@ -1,0 +1,43 @@
+{
+  "name": "inscribr",
+  "version": "0.0.39",
+  "description": "inscribr",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^23.1.2"
+  },
+  "build": {
+    "appId": "your.id",
+    "icon": "electron-quick-start/icons/Icon-512.png",
+    "directories": {
+      "buildResources": "build"
+  },
+    "mac": {
+      "category": "public.app-category.developer",
+      "target": "7z"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "electron-quick-start/icons/Icon-512.png"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "electron-quick-start/icons/Icon-512.png"
+    }
+  }
+}
